@@ -11,21 +11,23 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
-}
-
-.backdrop1 {
-  margin-top: 7%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.backdrop2 {
+section {
+  margin-top: 7%;
+}
+
+figure {
   background-color: rgb(255, 255, 255);
   text-align: center;
 
-  width: 330px;
-  height: 500px;
+  width: 19.8em;
+  height: 32em;
   border-radius: 20px;
   box-shadow: 0px 0px 3.6px rgba(0, 0, 0, -0.016),
     0px 0px 10px rgba(0, 0, 0, -0.015), 0px 0px 24.1px rgba(0, 0, 0, -0.007),
@@ -33,9 +35,9 @@ body {
 }
 
 img {
-  margin-top: 15px;
-  height: 300px;
-  width: 300px;
+  margin-top: 0.9em;
+  height: 19em;
+  width: 18em;
   border-radius: 10px;
 }
 
